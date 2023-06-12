@@ -40,9 +40,9 @@ const Panel = () => {
       <TextField label={"Pin ie: 12345"} />
       <TextField label={"Confirm Pin ie: 12345"} />
       <Button text={"REGISTER"} />
-      <p>
+      <span className="text-login">
         Already have an account? <a href="login.html">Login Here</a>
-      </p>
+      </span>
     </div>
   );
 };

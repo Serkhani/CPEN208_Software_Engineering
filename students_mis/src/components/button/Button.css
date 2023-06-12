@@ -1,9 +1,7 @@
 .button {
-  position: absolute;
+  position: relative;
   width: 271px;
   height: 58px;
-  left: 113px;
-  top: 669px;
   display: flex;
   align-items: center;
   justify-content: space-between;
