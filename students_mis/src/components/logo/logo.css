@@ -1,24 +1,20 @@
 .ses_logo {
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 5.71%;
-  bottom: 17.25%;
+  position: relative;
+  align-items: center;
+  align-content: center; 
+  display: flex;
+  flex-direction: column;
 }
 
 .ses {
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 77.04%;
-  bottom: 0%;
+  position: relative;
+  width: 90%; 
   font-family: "Akshar";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 108.97%;
   display: flex;
-  align-items: center;
-  text-align: center;
   color: #182a88;
+  text-align: center; 
 }
