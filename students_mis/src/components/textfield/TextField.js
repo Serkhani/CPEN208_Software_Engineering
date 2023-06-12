@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
-import './TextField.css';
+import React, { useState } from "react";
+import "./TextField.css";
 
 const TextField = ({ label }) => {
   const [isFocused, setIsFocused] = useState(false);
+  const [value, setValue] = useState("");
 
   const handleFocus = () => {
     setIsFocused(true);
@@ -12,13 +13,19 @@ const TextField = ({ label }) => {
     setIsFocused(false);
   };
 
+  const handleChange = (event) => {
+    setValue(event.target.value);
+  };
+
   return (
-    <div className={`text-field ${isFocused ? 'focused' : ''}`}>
+    <div className={`text-field ${isFocused || value ? "focused" : ""}`}>
       <input
         type="text"
         className="input-field"
+        value={value}
         onFocus={handleFocus}
         onBlur={handleBlur}
+        onChange={handleChange}
       />
       <label className="label">{label}</label>
     </div>
