@@ -1,0 +1,18 @@
+.text-register {
+  padding-top: 40px;
+  position: relative;
+  width: 100%;
+  height: 21px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #1e232c;
+}
+
+.button{
+    margin-top: 100px;
+}
