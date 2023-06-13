@@ -1,12 +1,12 @@
 import './App.css';
 import Background from './components/background/Background'
-import Panel from './components/panel/Panel';
+import StudentRegistration from './pages/StudentRegistration';
 
 function App() {
   return (
     <div>
       <Background />
-      <Panel />
+      <StudentRegistration />
     </div>
    
    );
