@@ -1,0 +1,18 @@
+.guardian-text {
+  position: relative;
+  width: 80%;
+  height: 25px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 125%;
+  text-align: left;
+  color: #8391a1;
+}
+
+.year-gender {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}

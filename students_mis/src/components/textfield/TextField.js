@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./TextField.css";
 
-const TextField = ({ label }) => {
+const TextField = ({ label , isYorG=false}) => {
   const [isFocused, setIsFocused] = useState(false);
   const [value, setValue] = useState("");
 
@@ -18,7 +18,9 @@ const TextField = ({ label }) => {
   };
 
   return (
-    <div className={`text-field ${isFocused || value ? "focused" : ""}`}>
+    <div
+      className={`text-field ${isFocused || value ? "focused" : ""} ${isYorG ? "YorG" : ""}`}
+    >
       <input
         type="text"
         className="input-field"
