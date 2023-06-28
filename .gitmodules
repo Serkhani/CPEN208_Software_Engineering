@@ -1,0 +1,3 @@
+[submodule "ugmis"]
+	path = ugmis
+	url = https://github.com/Serkhani/ugmis.git
