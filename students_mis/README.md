@@ -33,7 +33,7 @@ User Authentication: Users can log in securely with their credentials and access
 ## Pages
 |student_registration|info_entry|login|
 |:---:|:---:|:---:|
-![student_registration](https://github.com/Serkhani/CPEN208_Software_Engineering/assets/66341820/4c643651-8a9c-4f45-ae5f-ac29525bb6f3)|
+|![student_registration](https://github.com/Serkhani/CPEN208_Software_Engineering/assets/66341820/4c643651-8a9c-4f45-ae5f-ac29525bb6f3)|
 ![info_entry](https://github.com/Serkhani/CPEN208_Software_Engineering/assets/66341820/17bcbd44-f549-4719-be9b-94b90b9423a2)|
 ![login](https://github.com/Serkhani/CPEN208_Software_Engineering/assets/66341820/81544d60-8639-4c39-8450-252ed7db7c8c)|
 
